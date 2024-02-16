@@ -245,6 +245,12 @@ p{
     font-weight:bold;
     font-size: large;
   }
+  .end{
+    max-width: 80%;
+    right: 10%;  
+    height: 20%; 
+    top:75%;
+  }
 }
 
 .second-div h1{
