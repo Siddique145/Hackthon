@@ -221,6 +221,30 @@ p{
     margin-top: -20%;
     height: 30px;
   }
+  .front1{
+    height: 15%;
+  }
+  .front2{
+    height: 6%;
+  }
+  .work{
+   margin-top:-50%; 
+  margin-left:5%;
+  max-width: 80%;  
+  height: 12%; 
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  font-size: large;
+  }
+  .apply{
+    margin-top:-50%; 
+    right: 5%;
+    max-width: 80%;  
+    height: 12%; 
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: large;
+  }
 }
 
 .second-div h1{
