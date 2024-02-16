@@ -1,0 +1,257 @@
+*{
+ margin: 0;
+  padding: 0;
+} 
+body{
+  min-height: 100vh;
+}
+
+.container{
+  position: relative;
+  max-width: 100%;
+  height: 50px;
+ }
+ .container img{
+  width: 50%;
+  position: absolute;
+ }
+  
+.background{
+  position: relative;
+  width: 100%;
+  height: auto; 
+  display: block;
+}
+
+
+.front1{
+  position: absolute; 
+  max-width: 80%;
+  left: 0;  
+  height: 25%; 
+  margin-top: -40%;
+  display: inline-block;
+}
+
+.front2{
+  position: absolute; 
+  max-width: 80%;
+  right: 0;  
+  height: 15%; 
+  margin-top: -30%;
+  display: block;
+  }
+.work{
+  position: absolute;
+  margin-top:-50%; 
+  margin-left: 15%;
+  max-width: 80%;  
+  height: 30%; 
+  color: rgb(255, 255, 255);
+  font-weight:bolder;
+  font-size: larger;
+  display: inline-block;
+    
+}
+.apply{
+  position: absolute;
+  margin-top:-50%; 
+  right: 15%;
+  max-width: 80%;  
+  height: 30%; 
+  color: rgb(255, 255, 255);
+  font-weight:bolder;
+  font-size: larger;
+  display: inline-block;
+    
+}
+p{
+  display: inline-block;
+  font-size: larger;
+  font-weight: 100;
+}
+.text{
+  position: absolute;
+  margin-left: 50%;
+  margin-top:-35%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw; 
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 10px 20px;
+  max-width: 80%;
+  display: inline-block;
+}
+.text p{
+  position: absolute;
+  margin-top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 3vw; 
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(14, 240, 228);
+  padding: 10px 20px;
+  max-width: 80%;
+  }
+
+.mobile{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw; 
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 10px 20px;
+  max-width: 80%;
+
+}
+.mobile img{
+  height:auto;
+  width: 100%;
+}
+  
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:190px;
+}
+
+.circle1 {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  background-color: #615d5d; 
+  color: rgb(0, 0, 0);
+  font-size: 24px; 
+  font-weight: bold; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  }
+.circle2 {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  background-color: #615d5d; 
+  color: rgb(0, 0, 0);
+  font-size: 24px; 
+  font-weight: bold;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  }
+.circle3 {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  background-color: #615d5d; 
+  color: rgb(0, 0, 0); 
+  font-size: 24px; 
+  font-weight: bold; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+@media only screen and (max-width: 610px){
+  .container2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container2 .one{
+    margin-left: 0;
+    margin-top: 40px;
+  }
+}
+.one{
+  margin-left: 50%;
+}
+
+.container3 {
+  position: relative;
+  top: 100px;
+  height: auto;
+}
+.first-div img{
+  height: 200px;
+}
+.first-div {
+  width: 80%; 
+  height: 200px; 
+  background-color: hsl(0, 0%, 100%); 
+  justify-content: center;
+  display: flex;
+  margin-left: 55px;
+  position: relative;
+
+}
+
+.second-div {
+  position: absolute;
+  top: 45%;
+  margin-left: 50%;
+  width: 40%; 
+  height: 150px;
+  background-color: rgb(38, 16, 75);
+  color: aliceblue; 
+  padding: 20px 20px 20px 20px;
+}
+
+
+@media only screen and (max-width: 610px) {
+  .first-div, .second-div {
+    width: 100%;
+    position: static;
+    margin-left: 0; 
+  }
+  .second-div{
+    width: 100%;
+    
+  }
+  .end{
+    margin-top: -20%;
+    height: 30px;
+  }
+}
+
+.second-div h1{
+  display: block;
+}
+.p{
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size:2vh ;
+  font-family: Arial, sans-serif;
+  background-color: rgb(14, 240, 228);
+  
+}
+.end{
+  position: absolute; 
+  max-width: 80%;
+  right: 10%;  
+  height: 40%; 
+  margin-top:2.5%;
+  display: block;
+}
+.footer{
+  height: 200px;
+  background-color:white;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.img{
+  margin-top: 50px;
+  margin-left: -120px;
+  word-spacing: 5vh;
+}
